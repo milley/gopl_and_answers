@@ -47,8 +47,6 @@ func genSelectSQL(tableName string) (sql string, ok bool) {
 		if sqlSlice != nil {
 			sql := strings.Join(sqlSlice, Wrap)
 			return sql, true
-		} else {
-			return "", false
 		}
 	}
 	return "", false
