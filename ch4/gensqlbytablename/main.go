@@ -81,7 +81,7 @@ func genDropOrTruncateSQL(arg string, tableName string) (sql string, ok bool) {
 func main() {
 	if len(os.Args) != 3 {
 		fmt.Printf("The input arguments is error: %v\n", os.Args)
-		fmt.Printf("The Usage: gensqlbytable select/drop/truncate tablename")
+		fmt.Printf("The Usage: gensqlbytablename select/drop/truncate tablename")
 		os.Exit(1)
 	}
 
