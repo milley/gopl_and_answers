@@ -10,6 +10,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"strings"
 
 	"golang.org/x/net/html"
 )
@@ -20,25 +21,28 @@ func main() {
 		fmt.Fprintf(os.Stderr, "findlinks1: %v\n", err)
 		os.Exit(1)
 	}
-	for elem, count := range visit(make(map[string]int), doc) {
-		fmt.Printf("%s\t%d\n", elem, count)
-	}
+	visit(doc, nil)
 }
 
 //!-main
 
 //!+visit
 // visit appends to links each link found in n and returns the result.
-func visit(elems map[string]int, n *html.Node) map[string]int {
-	if n.Type == html.ElementNode {
-		elems[n.Data]++
+func visit(n *html.Node, parent *html.Node) {
+	if parent != nil && parent.Type == html.ElementNode {
+		if parent.Data == "script" || parent.Data == "style" {
+			return
+		}
+	}
+	if n.Type == html.TextNode {
+		if strings.TrimSpace(n.Data) != "" {
+			fmt.Println(n.Data)
+		}
 	}
 
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
-		visit(elems, c)
+		visit(c, n)
 	}
-
-	return elems
 }
 
 //!-visit
