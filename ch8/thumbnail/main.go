@@ -11,7 +11,7 @@
 // this:
 //
 // Run with:
-//   $ go run $GOPATH/src/gopl.io/ch8/thumbnail/main.go
+//   $ go run $GOPATH/src/gopl_and_answers/ch8/thumbnail/main.go
 //   foo.jpeg
 //   ^D
 //
@@ -23,7 +23,7 @@ import (
 	"log"
 	"os"
 
-	"gopl.io/ch8/thumbnail"
+	"gopl_and_answers/ch8/thumbnail"
 )
 
 func main() {

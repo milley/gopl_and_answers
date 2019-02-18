@@ -16,7 +16,7 @@ import (
 // nondeterministic.  The output of the t.Log statements can be
 // inspected by running the test with the -v flag:
 //
-// 	$ go test -v gopl.io/ch12/sexpr
+// 	$ go test -v gopl_and_answers/ch12/sexpr
 //
 func Test(t *testing.T) {
 	type Movie struct {

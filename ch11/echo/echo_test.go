@@ -1,7 +1,7 @@
 // Copyright © 2016 Alan A. A. Donovan & Brian W. Kernighan.
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-// Test of echo command.  Run with: go test gopl.io/ch11/echo
+// Test of echo command.  Run with: go test gopl_and_answers/ch11/echo
 
 //!+
 package main

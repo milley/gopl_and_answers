@@ -2,7 +2,7 @@
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 // This file is just a place to put example code from the book.
-// It does not actually run any code in gopl.io/ch8/thumbnail.
+// It does not actually run any code in gopl_and_answers/ch8/thumbnail.
 
 package thumbnail_test
 
@@ -11,7 +11,7 @@ import (
 	"os"
 	"sync"
 
-	"gopl.io/ch8/thumbnail"
+	"gopl_and_answers/ch8/thumbnail"
 )
 
 //!+1

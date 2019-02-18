@@ -12,7 +12,7 @@ import (
 	"text/template"
 	"time"
 
-	"gopl.io/ch4/github"
+	"gopl_and_answers/ch4/github"
 )
 
 //!+template
@@ -70,7 +70,7 @@ func noMust() {
 
 /*
 //!+output
-$ go build gopl.io/ch4/issuesreport
+$ go build gopl_and_answers/ch4/issuesreport
 $ ./issuesreport repo:golang/go is:open json decoder
 13 issues:
 ----------------------------------------

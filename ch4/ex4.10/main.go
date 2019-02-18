@@ -13,7 +13,7 @@ import (
 	"os"
 	"time"
 
-	"gopl/gopl.io/ch4/github"
+	"gopl/gopl_and_answers/ch4/github"
 )
 
 //!+
@@ -58,7 +58,7 @@ func main() {
 
 /*
 //!+textoutput
-$ go build gopl.io/ch4/issues
+$ go build gopl_and_answers/ch4/issues
 $ ./issues repo:golang/go is:open json decoder
 13 issues:
 #5680    eaigner encoding/json: set key converter on en/decoder

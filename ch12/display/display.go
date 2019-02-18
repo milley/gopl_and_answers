@@ -22,7 +22,7 @@ func Display(name string, x interface{}) {
 //!-Display
 
 // formatAtom formats a value without inspecting its internal structure.
-// It is a copy of the the function in gopl.io/ch11/format.
+// It is a copy of the the function in gopl_and_answers/ch11/format.
 func formatAtom(v reflect.Value) string {
 	switch v.Kind() {
 	case reflect.Invalid:

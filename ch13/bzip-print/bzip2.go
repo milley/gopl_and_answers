@@ -6,7 +6,7 @@
 // but it does not comply with the proposed
 // rules for passing pointers between Go and C.
 // (https://github.com/golang/proposal/blob/master/design/12416-cgo-pointers.md)
-// See gopl.io/ch13/bzip for an updated version.
+// See gopl_and_answers/ch13/bzip for an updated version.
 //!+
 
 // Package bzip provides a writer that uses bzip2 compression (bzip.org).

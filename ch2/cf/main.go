@@ -12,7 +12,7 @@ import (
 	"os"
 	"strconv"
 
-	"gopl/gopl.io/ch2/tempconv"
+	"gopl/gopl_and_answers/ch2/tempconv"
 )
 
 func main() {

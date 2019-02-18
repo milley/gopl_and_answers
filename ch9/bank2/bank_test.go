@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"gopl.io/ch9/bank2"
+	"gopl_and_answers/ch9/bank2"
 )
 
 func TestBank(t *testing.T) {

@@ -16,7 +16,7 @@ import (
 	"log"
 	"os"
 
-	"gopl.io/ch5/links"
+	"gopl_and_answers/ch5/links"
 )
 
 //!+crawl
@@ -56,9 +56,9 @@ func main() {
 
 /*
 //!+output
-$ go build gopl.io/ch8/crawl1
-$ ./crawl1 http://gopl.io/
-http://gopl.io/
+$ go build gopl_and_answers/ch8/crawl1
+$ ./crawl1 http://gopl_and_answers/
+http://gopl_and_answers/
 https://golang.org/help/
 
 https://golang.org/doc/

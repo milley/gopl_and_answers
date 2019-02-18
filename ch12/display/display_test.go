@@ -11,7 +11,7 @@ import (
 	"sync"
 	"testing"
 
-	"gopl.io/ch7/eval"
+	"gopl_and_answers/ch7/eval"
 )
 
 // NOTE: we can't use !+..!- comments to excerpt these tests

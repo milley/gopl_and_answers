@@ -32,7 +32,7 @@ func main() {
 
 /*
 !+output
-$ go build gopl.io/ch5/trace
+$ go build gopl_and_answers/ch5/trace
 $ ./trace
 2015/11/18 09:53:26 enter bigSlowOperation
 2015/11/18 09:53:36 exit bigSlowOperation (10.000589217s)

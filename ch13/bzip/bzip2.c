@@ -12,7 +12,7 @@
 // has been corrected.  See bzip2.go for explanation.
 
 //!+
-/* This file is gopl.io/ch13/bzip/bzip2.c,         */
+/* This file is gopl_and_answers/ch13/bzip/bzip2.c,         */
 /* a simple wrapper for libbzip2 suitable for cgo. */
 #include <bzlib.h>
 
