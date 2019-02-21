@@ -23,6 +23,7 @@ func TestBank(t *testing.T) {
 	// Bob
 	go func() {
 		bank.Deposit(100)
+		fmt.Println("*", bank.Balance())
 		done <- struct{}{}
 	}()
 
